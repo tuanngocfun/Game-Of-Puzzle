@@ -17,6 +17,7 @@ public abstract class Operator {
     public abstract String notation();
 
     public final BigDecimal apply(List<Integer> operands) {
+        return reduce(operands.stream().map(BigDecimal::valueOf).collect(Collectors.toList()));
     }
 
     public boolean hasCommutativeInverse() {
