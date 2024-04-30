@@ -175,11 +175,11 @@ public class CollectionHelpers {
      * @return a Set containing Lists, each representing a possible combination of elements
      * @usage
      * Example:
-     * <pre>
+     * <pre>{@code
      * List<List<Integer>> lists = Arrays.asList(Arrays.asList(1, 2), Arrays.asList(3, 4));
      * Set<List<Integer>> product = CollectionHelpers.cartesianProduct(lists);
      * product.forEach(System.out::println); // Prints [1, 3], [1, 4], [2, 3], [2, 4]
-     * </pre>
+     * }</pre>
      */
     public static <T> Set<List<T>> cartesianProduct(List<List<T>> lists) {
         if (lists == null || lists.isEmpty()) {
@@ -337,12 +337,12 @@ public class CollectionHelpers {
      *         is an integer representing the position of an element in the list, and the corresponding value
      *         is the element at that position. If the input list is null or empty, the method returns an empty list.
      * @usage Example:
-     * <pre>
+     * <pre>{@code
      * List<String> inputList = Arrays.asList("a", "b", "c");
      * List<Map<Integer, String>> permutations = CollectionHelpers.possiblePermutationsAsMaps(inputList);
      * permutations.forEach(System.out::println);
      * // Output might include maps like {0=a, 1=b, 2=c}, {0=a, 1=c, 2=b}, ..., depending on the permutation logic.
-     * </pre>
+     * }</pre>
      */
     private static <E> List<Map<Integer, E>> possiblePermutationsAsMaps(List<E> list) {
         // check if the list is non-null and non-empty
