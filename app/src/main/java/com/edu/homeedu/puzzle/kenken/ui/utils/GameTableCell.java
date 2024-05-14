@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
 
@@ -59,7 +60,7 @@ public class GameTableCell {
         wrapperLayout.setOnClickListener(listener);
     }
 
-    private void setTextScale(TextView textView, float scale) {
+    private void setTextScale(@NonNull TextView textView, float scale) {
         textView.setTextSize(initialTextSize * scale);
     }
 
@@ -135,7 +136,7 @@ public class GameTableCell {
         constraintSet.applyTo(cellLayout);
     }
 
-    private void setTextViewColorBlack(TextView textView) {
+    private void setTextViewColorBlack(@NonNull TextView textView) {
         textView.setTextColor(UiHelpers.getColor(context, R.color.black));
     }
 }
