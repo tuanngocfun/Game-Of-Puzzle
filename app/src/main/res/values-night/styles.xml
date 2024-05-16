@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for dark mode -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Use different colors for dark theme if needed -->
+        <item name="colorPrimary">@color/dark</item>
+        <item name="colorPrimaryVariant">@color/purple</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/dark</item>
+        <item name="colorSecondaryVariant">@color/dark_purple</item>
+        <!-- Customize other style properties if needed -->
+    </style>
+
+    <!-- If main background and title styles are the same for dark theme, no need to redefine them -->
+</resources>

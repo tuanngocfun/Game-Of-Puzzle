@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Proj2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Add more items here to customize your dark theme -->
+    </style>
+</resources>

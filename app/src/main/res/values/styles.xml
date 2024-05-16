@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for light mode -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/light_pink</item>
+        <item name="colorPrimaryVariant">@color/strong_gray</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/dark</item>
+        <item name="colorSecondaryVariant">@color/purple</item>
+        <!-- Customize other style properties if needed -->
+    </style>
+
+    <!-- Styles for main background and title should be defined here too if they differ from dark theme -->
+    <style name="main_background">
+        <item name="android:alpha">1</item>
+        <item name="android:src">@drawable/main_screen_background</item>
+    </style>
+    <style name="main_title">
+        <item name="android:alpha">1</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/kenken</item>
+    </style>
+</resources>
